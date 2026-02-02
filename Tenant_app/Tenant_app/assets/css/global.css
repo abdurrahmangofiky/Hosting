@@ -1,0 +1,463 @@
+/* ===== LOGIN ===== */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0;
+}
+/* BACKGROUND SEMUA HALAMAN */
+.bg {
+    min-height: 100vh;
+    background: url("../img/bg.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CARD PUTIH LOGIN */
+.login-card {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+}
+/* LOGO */
+.logo {
+    width: 140px;
+    display: block;
+    margin: 0 auto 15px;
+}
+/* JUDUL */
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+/* PASSWORD */
+.password-box {
+    position: relative;
+}
+.eye {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #e61e25;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background: #c9181e;
+}
+/* DASHBOARD BOX */
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+/* ===== DASHBOARD ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+/* SIDEBAR */
+.sidebar {
+    width: 260px;
+    background: #ffffff;
+    padding: 25px 20px;
+}
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #1e60ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.sidebar nav a {
+    display: block;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000;
+}
+.sidebar nav a.active,
+.sidebar nav a:hover {
+    background: #e50914;
+    color: #fff;
+}
+/* MAIN */
+.main {
+    flex: 1;
+    padding: 40px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #4b0d6b, #8b0037);
+}
+.cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.card {
+    
+    background: #fff;
+    color: #000;
+    padding: 30px;
+    border-radius: 14px;
+    width: 220px;
+    text-align: center;
+}
+.card h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+
+/* ===== TENANT AKTIF ===== */
+/* Header atas tenant aktif */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.page-header h2 {
+    margin: 0;
+}
+.page-header .total {
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+/* Tombol tambah */
+.btn-primary {
+    background: #1e60ff;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-primary:hover {
+    opacity: 0.9;
+}
+/* Card putih pembungkus tabel */
+.content-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    color: #000;
+}
+/* TABEL */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.table th {
+    background: #f2f2f2;
+    text-align: left;
+    padding: 12px;
+}
+.table td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+/* Aksi */
+.table a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.table a.edit {
+    color: #1e60ff;
+}
+.table a.delete {
+    color: #e50914;
+}
+
+
+
+
+/* =========================
+   BACKGROUND GLOBAL
+========================= */
+body {
+    background: url("../img/bg.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* =========================
+   JUDUL HALAMAN
+========================= */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+/* =========================
+   BOX FORM
+========================= */
+.form-box {
+    background: rgba(255, 255, 255, 0.96);
+    width: 520px;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   INPUT ESTETIK & BESAR
+========================= */
+.form-box input {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.form-box input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+}
+
+/* =========================
+   BUTTON SIMPAN (BIRU)
+========================= */
+.form-box button {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    background-color: #0056b3;
+}
+
+
+/* ===== FIX ANGKA DASHBOARD (PAKSA) ===== */
+.card h1,
+.card h2,
+.card span,
+.stat-card h1,
+.stat-card h2 {
+    color: #111827 !important;
+    text-shadow: none !important;
+}
+
+
+
+
+/* ===== FIX HEADER TENANT AKTIF ===== */
+.tenant-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.tenant-header-left h1,
+.tenant-header-left p {
+    text-align: left;
+}
+
+.tenant-header-right {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/* HEADER PENGAJUAN */
+.tenant-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.tenant-header-right{
+    display:flex;
+    gap:15px;
+}
+
+.badge{
+    background:#1e60ff;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:#22c55e;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+/* CARD */
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:14px;
+    color:#000;
+}
+
+/* STATUS */
+.status{
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.status.baru{ background:#fde68a; }
+.status.negosiasi{ background:#93c5fd; }
+.status.disetujui{ background:#86efac; }
+.status.ditolak{ background:#fca5a5; }
+
+
+
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.status.menunggu-persetujuan {
+    background: #fff4cc;
+    color: #92400e;
+}
+
+.status.dalam-negosiasi {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status.disetujui {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status.ditolak {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+
+
+/* ===== FIX AKSI EDIT & HAPUS ===== */
+.btn-edit,
+.btn-hapus {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.btn-edit {
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-hapus {
+    color: #dc2626;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+/* ===== FORCE WARNA TEKS TABEL ===== */
+.table-pn td {
+    color: #000 !important;     /* INI KUNCI */
+    background: transparent;
+}
+
+/* HEADER TABEL */
+.table-pn th {
+    color: #333 !important;
+}
+
+/* STATUS BADGE */
+.status {
+    color: #000;
+    font-weight: 500;
+}
+
+.status.menunggu-persetujuan {
+    background: #fff3cd;
+    color: #856404 !important;
+}
+
+.status.dalam-negosiasi {
+    background: #d1ecf1;
+    color: #0c5460 !important;
+}
+
+.status.disetujui {
+    background: #d4edda;
+    color: #155724 !important;
+}
+
+.status.ditolak {
+    background: #f8d7da;
+    color: #721c24 !important;
+}
